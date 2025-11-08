@@ -1,6 +1,8 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  /* config options here */
+  images: {
+    domains: ['cdnjs.cloudflare.com'],
+  },
 };
 
 export default nextConfig;
